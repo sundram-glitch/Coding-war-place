@@ -1,0 +1,11 @@
+class Bitwise 
+{
+    public static void main(String [] args) 
+    {
+        int x = 11 & 9;
+        int y = x ^ 3;
+		boolean flag = false;
+        System.out.println( y | 12 );
+        System.out.println( !flag );
+	}
+}

@@ -1,0 +1,35 @@
+class I_Can{
+	I_Can(){
+    System.out.println("Inside no-peram of I_Can cls");
+	}
+	I_Can(int i){
+    System.out.println("Inside int-param of I_Can cls");
+	}
+	I_Can(String str){
+    System.out.println("Inside String-peram of I_Can cls");
+	}
+    
+}
+
+
+class Do_it extends I_Can{
+		Do_it (){
+    System.out.println("Inside no-peram of I_Can cls");
+	}
+	Do_it (int i){
+    System.out.println("Inside int-param of I_Can cls"+i);
+	}
+	Do_it (String str){
+    System.out.println("Inside String-peram of I_Can cls"+str);
+	}
+}
+
+public class Test_#i_can_do_it{
+    
+	public static void main(String[] args){
+		System.out.println("start of main!");
+	Do_it i=new  Do_it();
+	Do_it i=new  Do_it(7054702937);
+	Do_it i=new  Do_it("Sundram Dubey");
+	}
+}

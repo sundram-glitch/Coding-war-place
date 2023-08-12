@@ -1,0 +1,9 @@
+import java.io.*;
+class TchGG 
+{
+	public static void main(String[] args) 
+	{
+          Console.writeline("K : csharp!");
+		//System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,19 @@
+
+class  Test06{
+	public static String makinStrings(){
+String s = "Fred";
+s = s + "0";
+s = s.substring(2, 5);
+s = s.toUpperCase();
+return s.toString();
+}
+
+	/*public static void main(String[] args) 
+	{
+		System.out.println(makinStrings());
+	}*/
+	public static void main(String... args) 
+	{
+		System.out.println(makinStrings());
+	}
+}

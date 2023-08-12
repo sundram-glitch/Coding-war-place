@@ -1,0 +1,17 @@
+class  PalindromeString{
+	public static void main(String[] args) {
+		System.out.println(StringChallenge("never odd or even"));
+	}
+	public static boolean StringChallenge(String str){
+    String res = "";
+	for (int i = 0; i < str.length() ; i++){
+     if(str.charAt(i)!=' ')
+	 res +=str.charAt(i);
+	}
+	StringBuffer sb = new StringBuffer(res);
+	String newStr = String.valueOf(sb.reverse());
+			System.out.println(sb+" "+newStr);
+	if(newStr.equals(res))return true;
+	else return false;
+	}
+}

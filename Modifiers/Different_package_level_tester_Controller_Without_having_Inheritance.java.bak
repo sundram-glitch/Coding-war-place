@@ -1,0 +1,21 @@
+package com.sd.itss;
+import com.sd.it.Different_package_level_tester;
+import com.sd.its.Different_package_level_tester_Controller;
+
+public class Different_package_level_tester_Controller_Without_having_Inheritance{
+	/*private int a = 10;
+	        int b=23;
+	protected int c=32;
+	public int  d=345;*/
+
+	public static void main(String[] args) {
+		System.out.println("start of main ");
+	/*Different_package_level_tester_Controller_Without_having_Inheritance ts=new Different_package_level_tester_Controller_Without_having_Inheritance();
+    ts.d=2435;*/
+	Different_package_level_tester ttu=new  Different_package_level_tester();
+    System.out.println(/*"value  of a"+ts.a+"\nvalue  of b"+ts.b+"\nvalue  of c"+ts.c+*/"\nvalue  of d"+ttu.d);
+    Different_package_level_tester_Controller tt=new  Different_package_level_tester();
+	System.out.println(/*"value  of a"+tt.a+"\nvalue  of b"+tt.b+"\nvalue  of c"+tt.c+*/"\nvalue  of d"+tt.d);
+
+	}
+}
