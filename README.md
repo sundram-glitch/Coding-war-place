@@ -42,6 +42,6 @@ This repository is open-source and available under the [Name of License](LICENSE
 
 If you have questions, suggestions, or feedback, feel free to contact us:
 
-- Email: your@email.com
+- Email: sundramkdubey@email.com
 - Twitter: [@YourTwitterHandle](https://twitter.com/i/flow/login?redirect_after_login=%2FSundram60588377)
 - GitHub Issues: [Link to Issues](https://github.com/sundram-glitch)
